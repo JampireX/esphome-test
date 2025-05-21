@@ -3,6 +3,10 @@ esphome:
   friendly_name: "IR Remote"
   name_add_mac_suffix: true
 
+dashboard_import:
+  package_import_url: github://JampireX/esphome-test/ir-remote.yaml@main
+  import_full_config: false
+
 esp8266:
   board: esp12e
 
