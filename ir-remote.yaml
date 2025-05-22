@@ -4,10 +4,10 @@ esphome:
   name_add_mac_suffix: true
   project:
     name: "JampireX.esphome-test"
-    version: "1.0"
+    version: "1.0.0"
     
 dashboard_import:
-  package_import_url: github://JampireX/esphome-test/ir-remote.yaml@main
+  package_import_url: github://JampireX/esphome-test/ir-remote.yaml
   import_full_config: false
 
 esp8266:
